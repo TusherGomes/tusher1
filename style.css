@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Spartan', sans-serif;
+}
+
+.text-w{
+    width: 500px;
+    margin: auto;
+}
+.our-p{
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+}
+.our-p::after{
+    content: "";
+    position: absolute;
+    top: 116%;
+    left: 129px;
+    width: 94px;
+    height: 3px;
+    background: rgb(41, 9, 226);
+}
+.border-b{
+
+    position: relative;
+    transition-delay: .5s;
+   transition-duration: .5s;
+   font-size: 30px;
+   
+}
+.border-b::after{
+    content: "";
+    position: absolute;
+    top: 105%;
+    left: 53px;
+    width: 309px;
+    height: 1px;
+    background: #ddd;
+}
+.cus-ma{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background: blue;
+    border-radius: 27px !important;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    transition: .7s;
+    overflow: hidden;
+    
+}
+.cus-ma::after{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: blue;
+    transition:.7s;
+    opacity: 0;
+    border-radius: 22px 0px 0px 22px;
+}
+.cus-ma:hover::after{
+    width: 100%;
+    opacity: 1;
+}
+.cus-ma:hover{
+    color: rgb(250, 250, 255) !important;
+}
+.lead.text-muted.py-3 {
+    line-height: 2;
+    font-size: 26px;
+    font-weight: 500;
+}
+.hov-p{
+    transition: .8s;
+    cursor: pointer;
+}
+.hov-p:hover .text-muted {
+    color: #fff !important;
+}
+.hov-p:hover{
+    background: blue;
+    color: #fff !important;
+}
+.hov-p:hover .cus-ma{
+    background: #fff;
+    color: blue;
+}
+
+
+.banner-secton{
+    background-image: url(https://i.ibb.co/fdXHCdR/free-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 1;
+}
+.banner-secton::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(38, 38, 240,.6);
+    z-index: -1;
+}
+.middle {
+    margin-top: 209px;
+    color: #fff;
+}
+.purches{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(39, 19, 219);
+    background: #fff;
+    border-radius: 27px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    transition: .4s;
+    margin-top: 40px;
+    border: 1px solid #fff;
+    display: inline-block;
+    overflow: hidden;
+}
+.purches::after{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: blue;
+    border-radius: 27px;
+    transition: .4s;
+    color: #fff;
+}
+.purches:hover::after{
+    width: 100%;
+}
+.purches:hover{
+    color: rgb(250, 250, 255) !important;
+}
+.w-80.m-auto {
+    font-size: 25px;
+    
+}
+.bor-w{
+    position: relative;
+    display: inline-block;
+    }
+.bor-w::after{
+    content: "";
+    position: absolute;
+    top: 123%;
+    left: 273px;
+    width: 119px;
+    height: 1px;
+    background: rgb(226, 221, 253);
+}
+.purches.bg-primary.text-white {
+
+    overflow: hidden;
+}
+.card.shadow {
+    margin-left: 37px;
+}
+.purches.mt-0.py-1 {
+    overflow: hidden;
+}
+.form-control {
+    border-radius: 20px;
+}
+.w-80.m-auto.mt-5 {
+    width: 720px;
+    font-size: 20px;
+}
+.card-body  span{
+    color: #fff;
+    font-size: 20px;
+}
+.font-1{
+    font-size: 42px;
+}
